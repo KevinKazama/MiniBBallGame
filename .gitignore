@@ -5,4 +5,4 @@ token.txt
 __pycache__/
 .env
 selections/
-/data/
+data/
