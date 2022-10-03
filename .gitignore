@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+.idea
+.vscode/
+
+token.txt
+__pycache__/
+.env
+data/
