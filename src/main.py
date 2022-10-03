@@ -629,6 +629,7 @@ async def game(ctx):
                             viewnfts.add_item(button_next)
                             viewnfts.add_item(button_return)
 
+
                             async def button_search_callback(interaction):
                                 if str(interaction.user) == user_name:
                                     viewnt = View()
