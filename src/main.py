@@ -773,28 +773,6 @@ async def game(ctx):
                         kind = event.kind
                         opponent = event.opponent
 
-                        #if i == 1:
-                        #    button_ev1 = Button(label=name, style=discord.ButtonStyle.blurple,
-                        #                            row=2, custom_id=code+","+opponent)
-                        #    viewlead.add_item(button_ev1)
-                        #elif i == 2:
-                        #    button_ev2 = Button(label=name, style=discord.ButtonStyle.blurple,
-                        #                            row=2, custom_id=code+","+opponent)
-                        #    viewlead.add_item(button_ev2)
-                        #elif i == 3:
-                        #    button_ev3 = Button(label=name, style=discord.ButtonStyle.blurple,
-                        #                            row=2, custom_id=code+","+opponent)
-                        #    viewlead.add_item(button_ev3)
-                        #elif i == 4:
-                        #    button_ev4 = Button(label=name, style=discord.ButtonStyle.blurple,
-                        #                            row=2, custom_id=code+","+opponent)
-                        #    viewlead.add_item(button_ev4)
-                        #elif i == 5:
-                        #    button_ev5 = Button(label=name, style=discord.ButtonStyle.blurple,
-                        #                            row=2, custom_id=code+","+opponent)
-                        #    viewlead.add_item(button_ev5)
-                        #i += 1
-
                 async def button_leads_callback(interaction):
                     event = interaction.data['custom_id'].split(",")[0]
 
