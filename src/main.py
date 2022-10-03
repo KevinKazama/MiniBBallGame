@@ -773,6 +773,7 @@ async def game(ctx):
                         kind = event.kind
                         opponent = event.opponent
 
+
                 async def button_leads_callback(interaction):
                     event = interaction.data['custom_id'].split(",")[0]
 
